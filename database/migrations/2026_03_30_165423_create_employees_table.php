@@ -15,9 +15,11 @@ return new class extends Migration
             $table->id();
             $table->string("name");
             $table->string("lastName")->nullable();
+            $table->string("tazkira")->unique();
+            $table->enum("gender",["male","female"])->default("female");
             $table->string("email")->unique();
             $table->string("phone")->nullable();
-            $table->foreignId("designation_id")->constrained("designations")->onDelete("cascade")->onUpdate("cascade");  
+            $table->foreignId("designatio_id")->constrained("designations")->onDelete("cascade")->onUpdate("cascade");
             $table->timestamps();
         });
     }
