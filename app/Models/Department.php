@@ -11,4 +11,12 @@ class Department extends Model
         "name",
         "school_id",
     ];
+
+     public function designations(){
+        return $this->hasMany(Designation::class);
+    }
+
+     public function Department(){
+        return $this->belongsTo(School::class);
+    }
 }
