@@ -12,4 +12,11 @@ class Salary extends Model
         "employee_id",
         "payroll_id"
     ];
+
+     public function employee(){
+        return $this->hasMany(Employee::class);
+    }
+     public function payrool(){
+        return $this->belongsTo(Payroll::class);
+    }
 }
