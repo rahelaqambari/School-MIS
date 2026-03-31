@@ -9,12 +9,13 @@ class Employee extends Model
     //
     protected $fillable = [
         "name",
-        "lastName",
         "tazkira",
         "email",
-        "gender",
-        "phone",
         "designation_id",
         
     ];
+
+     public function designation(){
+        return $this->belongsTo(Designation::class);
+    }
 }
