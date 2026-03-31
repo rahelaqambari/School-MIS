@@ -11,10 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::table('payments', function (Blueprint $table) {
-            //
-            $table->decimal("amunt",12,2);
-        });
+        //
     }
 
     /**
@@ -22,8 +19,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::table('payments', function (Blueprint $table) {
-            //
-        });
+        //
     }
 };
