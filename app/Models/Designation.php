@@ -12,11 +12,11 @@ class Designation extends Model
         "dep_id",
     ];
 
-     public function departments(){
+     public function department(){
         return $this->belongsTo(Department::class);
     }
 
-     public function employee(){
+     public function employees(){
         return $this->hasMany(Employee::class);
     }
      public function contract(){
