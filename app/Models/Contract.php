@@ -10,14 +10,18 @@ class Contract extends Model
     protected $fillable = [
         "end_date",
         "employee_id",
-        "designation_id"
+        "designation_id",
+        "hire_type",
     ];
+
+     public function employee(){
+        return $this->belongsTo(Employee::class);
+    }
+     
      public function designation(){
         return $this->belongsTo(Designation::class);
     }
 
-     public function employee(){
-        return $this->hasMany(Employee::class);
-    }
+     
 
 }
