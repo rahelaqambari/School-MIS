@@ -16,9 +16,9 @@ class Payment extends Model
     ];
 
      public function payroll(){
-        return $this->hasMany(Payroll::class);
+        return $this->belongsTo(Payroll::class);
     }
      public function employee(){
-        return $this->hasMany(Employee::class);
+        return $this->belongsTo(Employee::class);
     }
 }
