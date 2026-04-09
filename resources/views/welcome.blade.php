@@ -14,8 +14,8 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="antialiased font-sans">
-        <div class="w-full bg-stone-100 relative">
-        <header class="w-full flex justify-between items-center py-4 px-8 fixed top-0 left-0 bg-stone-200">
+        <div class="w-full bg-stone-100 relative min-h-screen">
+        <header class="w-full flex justify-between items-center py-4 px-8 fixed top-0 left-0 bg-transparent border border-b-2xl border-black backdrop-blur-2xl border-t-0 border-l-0 border-r-0">
                         <div class="flex lg:justify-center lg:col-start-2">
                             <h1>Logo<h1>
                           </div>
