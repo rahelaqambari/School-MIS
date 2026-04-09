@@ -13,7 +13,12 @@ export default {
         extend: {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                custom: ['MyFont','sans-serif'],
             },
+            colors:{
+                brand: "#09637E",
+                primary: "#422564"
+            }
         },
     },
 
