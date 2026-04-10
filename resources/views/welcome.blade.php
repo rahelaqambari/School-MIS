@@ -25,7 +25,7 @@
                         @endif
                         </div>
                     </header>
-                    <div class="pt-16">
+                    <div class="pt-24">
                         <livewire:hero/>
                         <livewire:feature/>
                         <livewire:our-team/>
