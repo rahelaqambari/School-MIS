@@ -28,6 +28,7 @@
                     <div class="pt-16">
                         <livewire:hero/>
                         <livewire:feature/>
+                        <livewire:our-team/>
                     <div/>
                 </div>        
     </body>
