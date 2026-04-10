@@ -12,10 +12,17 @@
                     <h1 class="px-4 py-3 text-xl md:text-2xl lg:text-3xl text-brand font-serif">Manager: Esmatullah Ghulami</h1>
                     <p class=" px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem cumque sed suscipit excepturi cum amet repellendus iste corporis beatae nesciunt praesentium sit ea id cupiditate nisi magni, laborum dolore ad!Lorem ipsum dolor sit amet .</p>
                 </div>
-                    <img class="h-72 border border-4 mx-auto border-brand rounded-md w-72" src="images/Test1.jpg"/>
+                    <img class="mr-2 mb-2 h-64 border border-4 mx-auto border-brand rounded-md w-72" src="images/Test1.jpg"/>
             </div>
         </div>
-        <div class="h-72 w-full col-span-1 rounded-lg shadow-[0px_2px_6px_rgba(0,0,0,0.4)] bg-white"></div>
+        <div class=" w-full col-span-1 rounded-lg shadow-[0px_2px_6px_rgba(0,0,0,0.4)] bg-white">
+            {{-- <div class="h-full w-full flex"> --}}
+                <img class="h-64 w-full mx-auto border-brand rounded-t-md  w-72" src="images/Test1.jpg"/>
+                 <h1 class="text-xl md:text-2xl lg:text-3xl text-brand py-3 px-4 font-serif">Ramazan Ali Sharifi</h1>
+                  <p class=" px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem cumque sed suscipit excepturi cum amet repellendus iste corporis beatae nesciunt praesentium sit ea id cupiditate nisi magni, laborum dolore ad!Lorem ipsum dolor sit amet .</p>
+                
+            {{-- </div> --}}
+        </div>
     </div>
     {{-- Do your work, then step back. --}}
 </div>
