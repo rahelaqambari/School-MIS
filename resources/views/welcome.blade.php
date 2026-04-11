@@ -17,7 +17,7 @@
         <div class="w-full bg-stone-100 relative min-h-screen">
         <header class="w-full flex justify-between items-center py-4 px-8 fixed top-0 left-0 bg-transparent border border-b-2xl border-black backdrop-blur-2xl border-t-0 border-l-0 border-r-0">
                         <div class="flex lg:justify-center lg:col-start-2">
-                            <h1>Logo<h1>
+                              <img class="h-20 w-20" src="images/logo.jfif"/>
                           </div>
                         <div>
                         @if (Route::has('login'))
@@ -29,6 +29,7 @@
                         <livewire:hero/>
                         <livewire:feature/>
                         <livewire:our-team/>
+                        <livewire:faq/>
                     <div/>
                 </div>        
     </body>

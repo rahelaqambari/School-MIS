@@ -8,6 +8,27 @@ class Faq extends Component
 {
     public function render()
     {
-        return view('livewire.faq');
+        $questionlist = [
+            [
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit ?",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+            ],
+             [
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+            ],
+             [
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+            ],
+             [
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+            ],
+
+        ];
+        return view('livewire.faq')->with('data',$questionlist);
+        
     }
+
 }
