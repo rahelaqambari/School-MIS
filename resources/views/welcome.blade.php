@@ -30,6 +30,7 @@
                         <livewire:feature/>
                         <livewire:our-team/>
                         <livewire:faq/>
+                        <livewire:footer/>
                     <div/>
                 </div>        
     </body>
