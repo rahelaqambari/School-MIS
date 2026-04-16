@@ -9,32 +9,33 @@ class Faq extends Component
 
    public $faq = [
             [
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit ?",
-                "Lorem ipsum dolor sit amet consectetur adipisicing ."
+               "Q"=> "Lorem ipsum dolor sit amet consectetur adipisicing elit ?",
+               "A"=> "Lorem ipsum dolor sit amet consectetur adipisicing ."
             ],
-             [
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit ?",
-                "Lorem ipsum dolor sit amet consectetur adipisicing  ."
+            [
+               "Q"=> "Lorem ipsum dolor sit amet consectetur adipisicing elit ?",
+               "A"=> "Lorem ipsum dolor sit amet consectetur adipisicing ."
             ],
-             [
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit ?",
-                "Lorem ipsum dolor sit amet consectetur adipisicing  adipisicing elit."
+            [
+               "Q"=> "Lorem ipsum dolor sit amet consectetur adipisicing elit ?",
+               "A"=> "Lorem ipsum dolor sit amet consectetur adipisicing ."
             ],
-             [
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit ?",
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit consectetur adipisicing elit."
+            [
+               "Q"=> "Lorem ipsum dolor sit amet consectetur adipisicing elit ?",
+               "A"=> "Lorem ipsum dolor sit amet consectetur adipisicing ."
             ],
-
         ];
 
-        public function change($fa)
-{
-    foreach ($this->faq as $key => $item) {
-        $this->faq[$key][2] = false;
-    }
+        public $Qindex = null;
 
-    $this->faq[$fa][2] = true;
-}
+        public function toggle($index){
+            if($this->Qindex === $index){
+                $this->Qindex = null;
+            }
+            else{
+                $this->Qindex = $index;
+            }
+        }
 
     public function render()
     {
