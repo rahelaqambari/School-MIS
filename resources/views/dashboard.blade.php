@@ -14,11 +14,22 @@
         <div class=" grid grid-cols-4">
            <livewire:dashboard.sidebar/>
             <div class="col-span-3 shadow-sm">
-                <div class="grid-cols-2 w-full min-h-screen gap-4 ">
-                   <div>
-                     <h1 class="text-2xl ">Employee</h1>
+                <div class="w-full grid grid-cols-2 min-h-screen gap-4 ">
+                    {{-- cart --}}
+                   <div class="bg-white h-fit">
+                     <h1 class="text-2xl py-4 px-2">Employee Statistic</h1>
                    </div>
-                </diiv>
+                   <div class="bg-white h-fit">
+                     <h1 class="text-2xl py-4 px-2">Contract Statistic</h1>
+                   </div>
+                   <div class="bg-white h-fit">
+                     <h1 class="text-2xl py-4 px-2">Salary Statistic</h1>
+                   </div>
+                   <div class="bg-white h-fit">
+                     <h1 class="text-2xl py-4 px-2">Payroll Statistic</h1>
+                   </div>
+                   {{-- end --}}
+                </div>
             </div>
         </div>
 </x-app-layout>
