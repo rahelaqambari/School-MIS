@@ -17,16 +17,16 @@
                 <div class="w-full grid grid-cols-2 min-h-screen gap-4 ">
                     {{-- cart --}}
                    <div class="bg-white h-fit">
-                     <h1 class="text-2xl py-4 px-2">Employee Statistic</h1>
+                     <h1 class="text-2xl py-4 px-2 font-serif text-primary">Employee Statistic</h1>
                    </div>
                    <div class="bg-white h-fit">
-                     <h1 class="text-2xl py-4 px-2">Contract Statistic</h1>
+                     <h1 class="text-2xl py-4 px-2 font-serif text-primary">Contract Statistic</h1>
                    </div>
                    <div class="bg-white h-fit">
-                     <h1 class="text-2xl py-4 px-2">Salary Statistic</h1>
+                     <h1 class="text-2xl py-4 px-2 font-serif text-primary">Salary Statistic</h1>
                    </div>
                    <div class="bg-white h-fit">
-                     <h1 class="text-2xl py-4 px-2">Payroll Statistic</h1>
+                     <h1 class="text-2xl py-4 px-2 font-serif text-primary">Payroll Statistic</h1>
                    </div>
                    {{-- end --}}
                 </div>

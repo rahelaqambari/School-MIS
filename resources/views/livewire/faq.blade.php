@@ -8,13 +8,15 @@
     <div class=" w-full col-span-1 rounded-lg bg-white">
          <h1 class="text-xl md:text-2xl lg:text-3xl text-brand px-4 font-serif">FAQ</h1>
     @foreach ($this->faq as $q=>$value )
-    <div wire:key="{{ $q }}" class = "flex w-full items-center">
-        <h1 class="border border-b border-0 border-black  px-2 pt-2 pb-6 w-fit ">{{ $value["Q"]}}</h1>
-      <i wire:click ="toggle({{ $q }})">⬇️</i>
-    </div>
+    <div wire:key="{{ $q }}" class = "flex flex-col w-fit items-center mb-2 border-0  border-b-2">
+        <div class="flex items-center p-4 justify-center">
+              <h1 class="text-md">{{ $value["Q"]}}</h1>
+      <i class="cursor-pointer" wire:click ="toggle({{ $q }})">⬇️</i>
+        </div>
     @if ($q ===$this->Qindex)
-        <p>{{ $value["A"]}}</p>
+        <p class="pb-2">{{ $value["A"]}}</p>
     @endif
+    </div>
     @endforeach
     </div>
     </div>
