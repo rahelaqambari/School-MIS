@@ -27,6 +27,7 @@
                    </div>
                    <div class="bg-white h-fit">
                      <h1 class="text-2xl py-4 px-2 font-serif text-primary">Payroll Statistic</h1>
+                     <div></div>
                    </div>
                    {{-- end --}}
                 </div>
