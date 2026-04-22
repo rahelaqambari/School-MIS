@@ -6,7 +6,7 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
-class employeeSeeder extends Seeder
+class ContractSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -15,10 +15,11 @@ class employeeSeeder extends Seeder
     {
         //
         DB::table('school')->insert([
-            ['name'=> "Sana Bahar",
-            'lastName' =>'Qambari',
-            'tazkira' => '2354126098',
-            'email' => 'sanabahar@gmail.com',
+            [
+            'start_date'=> "4/22/2026",
+            'end_date' =>'4/22/2027',
+            'designation_id' => 2,
+            'employee_id' => 1,
             'phone' => '079765345216'
             ],
         ]);
