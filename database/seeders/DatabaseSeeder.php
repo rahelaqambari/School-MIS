@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Payroll;
 use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -23,6 +24,12 @@ class DatabaseSeeder extends Seeder
         // ]);
         $this->call([
         SchoolSeeder::class,
+        DepartmentSeeder::class,
+        ContractSeeder::class,
+        DesignationSeeder::class,
+        employeeSeeder::class,
+        SalarySeeder::class,  
+        PayrolltSeeder::class,      
     ]);
     }
     

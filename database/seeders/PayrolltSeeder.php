@@ -14,7 +14,7 @@ class PayrolltSeeder extends Seeder
     public function run(): void
     {
         //
-          DB::table('school')->insert([
+          DB::table('payroll')->insert([
             [
             'start_date'=> "4/22/2026",
             'end_date' =>'4/22/2027',
