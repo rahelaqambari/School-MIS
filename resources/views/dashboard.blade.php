@@ -11,26 +11,10 @@
         {{-- <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
             {{ __('Dashboard') }}
         </h2> --}}
-        <div class=" grid grid-cols-4">
+        <div class="grid grid-cols-4">
            <livewire:dashboard.sidebar/>
-            <div class="col-span-3 shadow-sm">
-                <div class="w-full grid grid-cols-2 min-h-screen gap-4 ">
-                    {{-- cart --}}
-                   <div class="bg-white h-fit">
-                     <h1 class="text-2xl py-4 px-2 font-serif text-primary">Employee Statistic</h1>
-                   </div>
-                   <div class="bg-white h-fit">
-                     <h1 class="text-2xl py-4 px-2 font-serif text-primary">Contract Statistic</h1>
-                   </div>
-                   <div class="bg-white h-fit">
-                     <h1 class="text-2xl py-4 px-2 font-serif text-primary">Salary Statistic</h1>
-                   </div>
-                   <div class="bg-white h-fit">
-                     <h1 class="text-2xl py-4 px-2 font-serif text-primary">Payroll Statistic</h1>
-                     <div></div>
-                   </div>
-                   {{-- end --}}
-                </div>
+            <div class="w-full h-full col-span-3 bg-white shadow-sm">
+                
             </div>
         </div>
 </x-app-layout>

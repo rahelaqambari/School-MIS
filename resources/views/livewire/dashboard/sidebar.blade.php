@@ -1,39 +1,13 @@
- <div class="bg-gray-700 col-span-1  dark:bg-gray-800 overflow-hidden shadow-sm">
-                 <h2 class="font-serif py-4 text-center bg-gray-700 text-2xl  text-white dark:text-gray-200 leading-tight">
+ <div class="bg-white col-span-1 overflow-hidden shadow-sm border-r-2">
+                 <h2 class="border-b-2 font-serif py-4 text-center bg-white text-2xl  text-black dark:text-gray-200 leading-tight">
             Dashboard
         </h2>
         <div class="flex flex-col gap-4 min-h-screen h-fit">
-            <div class="flex gap-2 px-4 pt-2">
-                <i class="fas fa-circle-user"></i>
-           <a href="/dashboard/employee">
-              <h2 class=" text-xl  text-white  leading-tight">
-            Employee
-        </h2>
-    </a>
-            </div>
-             <div class="flex gap-2 px-4 ">
-                  <i class="fas fa-circle-user"></i>
-             <a href="/dashboard/contract">
-              <h2 class=" text-xl  text-white  leading-tight">
-            Contract
-        </h2>
-    </a>
-            </div>
-             <div class="flex gap-2 px-4 ">
-                <i class="fas fa-circle-user"></i>
-             <a href="/dashboard/payroll">
-              <h2 class=" text-xl  text-white  leading-tight">
-            Payroll
-               </h2>
-             </a>
-            </div>
-             <div class="flex gap-2 px-4 ">
-                 <i class="fas fa-circle-user"></i>
-             <a href="/dashboard/salary">
-              <h2 class=" text-xl  text-white  leading-tight">
-            salary
-        </h2>
-    </a>
-            </div>
+            <a class="text-2xl pl-5 font-meduime font-serif" href="/dashboard/employee">Employee</a>
+            <a class="text-2xl pl-5 font-meduime font-serif" href="/dashboard/employee">Teacher</a>
+            <a class="text-2xl pl-5 font-meduime font-serif" href="/dashboard/employee">Student</a>
+            <a class="text-2xl pl-5 font-meduime font-serif" href="/dashboard/employee">Contract</a>
+            <a class="text-2xl pl-5 font-meduime font-serif" href="/dashboard/employee">Payroll</a>
+            <a class="text-2xl pl-5 font-meduime font-serif" href="/dashboard/employee">Payment</a>
         </div>
             </div>
