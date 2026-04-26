@@ -14,7 +14,7 @@
         <div class="grid grid-cols-4">
            <livewire:dashboard.sidebar/>
             <div class="w-full h-full col-span-3 bg-white shadow-sm">
-                
+                <h1 class="text-4xl p-4 font-serif font-bold">School</h1>
             </div>
         </div>
 </x-app-layout>
